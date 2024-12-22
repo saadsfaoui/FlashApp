@@ -1,0 +1,41 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 2rem;
+    background: url('https://img.freepik.com/free-vector/circles-background-dark-tones_60389-166.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    height: 80vh;
+    margin-bottom: 5%;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero .get-started {
+    padding: 0.75rem 2rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #DF5173;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .hero .get-started:hover {
+    background-color: #e03e40;
+    transform: translateY(-5px);
+  }
+  

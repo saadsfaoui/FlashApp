@@ -1,0 +1,163 @@
+/* General Header Styles */
+.header2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid #f5f5f5;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Logo Section */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ff4d4f;
+  cursor: pointer;
+}
+
+.logo-icon {
+  width: 40px;
+  height: 40px;
+}
+
+/* Navigation Container */
+.nav-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #333;
+  font-weight: 600;
+  position: relative; /* Required for underline effect */
+  transition: all 0.3s ease;
+}
+
+/* Pink underline effect on hover */
+.nav-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #ff4d4f;
+  transition: width 0.3s;
+  position: absolute;
+  bottom: -4px; /* Position the underline slightly below the text */
+  left: 0;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-link:hover {
+  color: #ff4d4f; /* Change text color on hover */
+}
+
+.nav-link.active {
+  color: #ff4d4f;
+  font-weight: 700;
+}
+
+.nav-link.active::after {
+  width: 100%;
+  background: #ff4d4f;
+}
+
+/* Button Link (Contact Us) Styling */
+/* Remove all default styles and ensure it behaves like a link */
+.button-link {
+  background: none !important; /* Ensure no background color is applied */
+  border: none !important; /* Remove any borders */
+  color: #333; /* Set default text color */
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  padding: 0; /* Remove any default padding */
+  outline: none; /* Remove focus outline */
+}
+
+/* Add underline animation */
+.button-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #ff4d4f; /* Pink underline */
+  transition: width 0.3s ease;
+  position: absolute;
+  bottom: -4px; /* Position the underline below the text */
+  left: 0;
+}
+
+/* Hover state */
+.button-link:hover {
+  color: #ff4d4f; /* Change text color */
+}
+
+.button-link:hover::after {
+  width: 100%; /* Expand underline to full width */
+}
+
+/* Focus state for accessibility */
+.button-link:focus {
+  outline: none;
+  color: #ff4d4f;
+}
+
+
+/* User Profile Styles */
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.user-avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  overflow: hidden;
+}
+
+.user-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.user-name {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #ff4d4f;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.user-name:hover {
+  background-color: #e03e40;
+}

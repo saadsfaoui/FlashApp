@@ -1,0 +1,142 @@
+.signup-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 2rem;
+    background-color: #011124;
+    color: #fff;
+    height: 100vh;
+  }
+  
+  .signup-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 2rem;
+  }
+  
+  .signup-left h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  .signup-left span {
+    display: block;
+    font-size: 4rem;
+    color: #df5173;
+  }
+  
+  .signup-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .signup-form-container {
+    background-color: #444;
+    border-radius: 16px;
+    padding: 3rem;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .signup-form-container h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .signup-form-container p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #ddd;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .form-group {
+    position: relative;
+  }
+  
+  .form-group .icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #666;
+    font-size: 1.5rem;
+  }
+  
+  .form-group input {
+    width: 90%;
+    padding: 1rem 1rem 1rem 3rem;
+    border: 1px solid #666;
+    border-radius: 8px;
+    background-color: #222;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  .form-group input::placeholder {
+    color: #aaa;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    align-items: center; /* Aligne verticalement la case à cocher et le texte */
+    gap: 0.5rem; /* Réduction de l'espace entre la case à cocher et le texte */
+    text-align: left;
+    color: #ccc;
+    font-size: 0.9rem; /* Ajuste la taille du texte si nécessaire */
+  }
+  
+  .checkbox-group input[type="checkbox"] {
+    width: 1rem;
+    height: 1rem; /* Rend la case à cocher plus petite et proportionnelle */
+    margin: 0;
+  }
+  
+  
+  .create-account-btn {
+    background-color: #df5173;
+    color: #fff;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .create-account-btn:hover {
+    background-color: #c34161;
+  }
+  
+  .login-link {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #fff;
+  }
+  
+  .login-link a {
+    color: #df5173;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  

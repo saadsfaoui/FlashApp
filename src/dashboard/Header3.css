@@ -1,0 +1,44 @@
+
+
+.header3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: white;
+    color: #222;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav a {
+    margin: 0 1rem;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+
+  .nav a:hover{
+    color: #ff5f6d;
+  }
+  
+  .profile-icon {
+    font-size: 1.5rem;
+  }
+  
+  .profile-icon:hover {
+    color: #ff5f6d; /* Ajoute un effet au survol pour indiquer qu'il est cliquable */
+  }
+
+  .profile-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-decoration: underline;
+    color: black; /* Assurez-vous que la couleur correspond au design */
+   
+  }

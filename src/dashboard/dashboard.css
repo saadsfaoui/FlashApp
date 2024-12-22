@@ -1,0 +1,188 @@
+.profile-section {
+    position: relative;
+    width: 100%;
+    height: 27vh;
+    background: linear-gradient(90deg,#2E2E2E , #DF5173,#DF5173 , #DF5173 , #2E2E2E) #DF5173;
+    overflow: hidden;
+  }
+  
+
+  
+  .profile-section .wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height:100px;
+    background: url(wave1.png);
+    background-size: 1000px 100px;
+  }
+  
+  .profile-section .wave.wave1{
+    animation: animate 30s linear infinite;
+    z-index: 500;
+    opacity: 1;
+    animation-delay: 0s;
+    bottom: 0;
+  
+  }
+  
+  .profile-section .wave.wave2{
+    animation: animate2 15s linear infinite;
+    z-index: 499;
+    opacity: 0.7;
+    animation-delay: -5s;
+    bottom: 10 px;
+  
+  }
+  
+  
+  
+  @keyframes animate{
+    0%{
+      background-position-x:0;
+    }
+    100%{
+      background-position-x:1000px;
+    }
+  } 
+  
+  @keyframes animate2{
+    0%{
+      background-position-x:0;
+    }
+    100%{
+      background-position-x: -1000px;
+    }
+  } 
+  
+  
+  
+  
+  /* General Styling */
+ 
+  
+  .main3 {
+    text-align: center;
+    background-color:#444;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #2E2E2E;
+    color: #fff;
+  }
+  
+ 
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav a {
+    margin: 0 1rem;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  .profile-icon {
+    font-size: 1.5rem;
+  }
+  
+  /* Profile Section */
+  
+  .profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .profile-avatar {
+    
+    font-size: 3rem;
+    margin-right: 1rem;
+  }
+  
+  .profile-info h2 {
+    margin: 0;
+  }
+  
+  .profile-info p {
+    margin: 0;
+    color: #ffd1d1;
+  }
+  
+  /* Streak Section */
+  
+  
+  .streak-section {
+    padding: 1rem;
+    margin: 2rem auto 0 auto; /* Utilise `auto` pour centrer horizontalement */
+    background: white;
+    color: black;
+    width: 600px;
+    border-radius: 10px;
+    
+  }
+  
+  
+  .streak-tracker {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .day {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    background: #444;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+  }
+  
+  .day.active {
+    background: #ffc371;
+    color: black;
+  }
+  
+  .streak-info {
+    margin-top: 1rem;
+  }
+  
+  .streak-saver-btn {
+    padding: 0.5rem 1rem;
+    background: #ff5f6d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Courses Section */
+  .courses-section {
+    margin-top: 2rem;
+    padding: 1rem;
+  }
+  
+  .course {
+    background: #444;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 10px;
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .browse-btn {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #ff5f6d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

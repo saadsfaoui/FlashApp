@@ -1,0 +1,97 @@
+.testimonials {
+  padding: 4rem 2rem;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.testimonials h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.testimonials-container {
+  overflow: hidden;
+  width: 100%;
+  max-width: 1190px; /* Align three cards */
+  margin: 0 auto;
+  position: relative;
+}
+
+.testimonial-cards {
+  display: flex;
+  transition: transform 0.5s ease-in-out; /* Smooth scrolling effect */
+}
+
+.testimonial-card {
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  padding: 2rem;
+  width: 300px; /* Fixed width for card alignment */
+  text-align: center;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+  flex-shrink: 0; /* Prevent shrinking */
+  margin: 0 1rem; /* Space between cards */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.testimonial-card .avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  object-fit: cover; /* Ensures avatar images are cropped properly */
+}
+
+.testimonial-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.testimonial-card .rating {
+  color: #ffcc00;
+  margin-bottom: 1rem;
+}
+
+.testimonial-card p {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+/* Optional: If navigation buttons are kept for accessibility */
+.navigation {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.nav-btn {
+  background-color: #df5173;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-btn:hover {
+  background-color: #c34161;
+}
+
+.nav-btn:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+}

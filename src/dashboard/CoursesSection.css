@@ -1,0 +1,26 @@
+.courses-section {
+    margin-top: 2rem;
+    margin-bottom: 10%;
+    padding: 1rem;
+  }
+  
+  .course {
+    background: #444;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 10px;
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .browse-btn {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #ff5f6d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

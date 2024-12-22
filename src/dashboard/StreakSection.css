@@ -1,0 +1,45 @@
+.streak-section {
+    padding: 1rem;
+    margin: 2rem auto 0 auto;
+    background: white;
+    color: black;
+    width: 600px;
+    border-radius: 10px;
+  }
+  
+  .streak-tracker {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .day {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    background: #444;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  
+  .day.active {
+    background: #ffc371;
+    color: black;
+  }
+  
+  .streak-info {
+    margin-top: 1rem;
+  }
+  
+  .streak-saver-btn {
+    padding: 0.5rem 1rem;
+    background: #ff5f6d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

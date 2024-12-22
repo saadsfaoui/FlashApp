@@ -1,0 +1,104 @@
+/* General styles */
+.Landing-Page {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #000; /* Black background */
+    color: white;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #101010;
+  }
+  
+  .navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f72585;
+  }
+  
+  .navbar nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navbar .auth-buttons button {
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .create-account {
+    background-color: #f72585;
+    color: white;
+  }
+  
+  .sign-in {
+    background: none;
+    border: 1px solid #f72585;
+    color: #f72585;
+  }
+  
+  
+  .get-started {
+    background-color: #f72585;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  /* Features Section */
+  .features {
+    text-align: center;
+    padding: 3rem 2rem;
+    background-color: #000;
+  }
+  
+  .features h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .feature-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .card {
+    background-color: #202020;
+    padding: 1.5rem;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: left;
+  }
+  
+  .card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  
+  .explore-features {
+    margin-top: 2rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #f72585;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  

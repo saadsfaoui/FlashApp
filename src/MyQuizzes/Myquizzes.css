@@ -1,0 +1,60 @@
+.my-quizzes-page {
+  padding: 4rem 2rem;
+  background-color: #011833; /* Dark blue background */
+  color: #ffffff; /* White text */
+  min-height: 100vh; /* Full height for consistent layout */
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #ff4d4f; /* Vibrant red */
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.quiz-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+  gap: 2rem;
+  padding: 0 2rem;
+}
+
+
+
+.quiz-card:hover {
+  transform: translateY(-5px); /* Elevation effect */
+  background-color: #03315c; /* Slightly brighter shade on hover */
+}
+
+.quiz-card h3 {
+  font-size: 1.5rem;
+  color: #ff4d4f; /* Vibrant red for quiz titles */
+  margin-bottom: 1rem;
+}
+
+.quiz-card p {
+  font-size: 1rem;
+  color: #aab8c2; /* Muted white for descriptions */
+  margin-bottom: 1.5rem;
+}
+
+.quiz-card button {
+  background-color: #ff4d4f; /* Vibrant red */
+  color: #ffffff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.quiz-card button:hover {
+  background-color: #e03e40; /* Slightly darker red on hover */
+}
+
+p {
+  text-align: center;
+  font-size: 1rem;
+  color: #ffffff;
+}
